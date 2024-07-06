@@ -9,14 +9,14 @@ import {
 import Link from "next/link";
 import PlaceholderContent from "@/components/demo/placeholder-content";
 
-export default function ExploreFoodPage() {
+export default function ExploreRecipiesPage() {
     return (
-        <ContentLayout title="រុករកមុខម្ហូប">
+        <ContentLayout title="រូបម្ដមុុខម្ហូប">
             <Breadcrumb>
                 <BreadcrumbList>
                     <BreadcrumbItem>
                         <BreadcrumbLink asChild>
-                            <Link href="/explore-foods">រុករកមុខម្ហូប</Link>
+                            <Link href="/explore-recipies">រូបម្ដមុុខម្ហូប</Link>
                         </BreadcrumbLink>
                     </BreadcrumbItem>
                 </BreadcrumbList>

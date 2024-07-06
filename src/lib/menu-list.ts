@@ -5,7 +5,7 @@ import {
     Bookmark,
     SquarePen,
     Soup,
-    LayoutGrid,
+    LayoutGrid, CarFrontIcon, ChefHat,
 } from "lucide-react";
 
 type Submenu = {
@@ -44,6 +44,13 @@ export function getMenuList(pathname: string): Group[] {
                     label: "រុករកមុខម្ហូប",
                     active: pathname.includes("/explore-foods"),
                     icon: Soup,
+                    submenus: []
+                },
+                {
+                    href: "/explore-recipies",
+                    label: "រូបមន្តមុខម្ហូប",
+                    active: pathname.includes("/explore-recipies"),
+                    icon: ChefHat,
                     submenus: []
                 }
             ]
